@@ -1,0 +1,105 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body{
+    padding: 30px;
+    background: #3b679e; /* Old browsers */
+    background: -moz-linear-gradient(top,  #3b679e 0%, #2b88d9 70%, #207cca 80%, #7db9e8 50%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #3b679e 0%,#2b88d9 70%,#207cca 80%,#7db9e8 50%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #3b679e 0%,#2b88d9 70%,#207cca 80%,#7db9e8 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+
+.main{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background: #e0f3fa; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e0f3fa 0%, #d8f0fc 50%, #b8e2f6 60%, #b6dffd 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #e0f3fa 0%,#d8f0fc 50%,#b8e2f6 60%,#b6dffd 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #e0f3fa 0%,#d8f0fc 50%,#b8e2f6 60%,#b6dffd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0f3fa', endColorstr='#b6dffd',GradientType=0 ); /* IE6-9 */
+
+}
+
+.name{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.date{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.img{
+    margin-bottom: 20px;
+}
+
+.text{
+    font-size: 17px;
+    text-indent: 30px;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 30px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.list li{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 50px;
+    line-height: 20px;
+}
+
+.list li:nth-child(4){
+    margin-bottom: 20px;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    width: 900px;
+    margin: 0 auto;
+	border: 1px solid;
+    align-items: left;
+}
+
+th{
+    font-size: 30px;
+}
+
+td{
+    font-size: 20px;
+}
+
+.tablica{
+    margin-bottom: 20px;
+}
+
+.wiki{
+    font-size: 30px;
+    padding: 20px 50px 50px 50px;
+}
+
