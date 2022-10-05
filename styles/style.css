@@ -33,6 +33,10 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
 }
 
+header{
+    background-color: #b8e2f6;
+}
+
 .main{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
@@ -75,15 +79,10 @@ body{
     margin-bottom: 15px;
 }
 
-
-h2{
-    font-size: 30px;
+.main__list h2{
     text-align: left;
-    padding-left: 50px;
-}
-
-.main__list{
-    padding-bottom: 20px;
+    padding-left: 170px;
+    font-size: 30px;
 }
 
 .main__list li{
@@ -100,6 +99,10 @@ h2{
 	border: 1px solid;
     align-items: left;
     padding: 8px;
+}
+
+.main__list li:last-child{
+    padding-bottom: 30px;
 }
 
 .main__table th{
