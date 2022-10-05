@@ -34,7 +34,9 @@ body{
 }
 
 header{
+    margin: 0 auto;
     background-color: #b8e2f6;
+    width: 400px;
 }
 
 .main{
